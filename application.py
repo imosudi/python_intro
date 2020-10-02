@@ -18,9 +18,6 @@ def readBalFilename(filename):
 					pass
 			else:
 				del listItems
-			#print (ListEachCustomer)
-			#AccountNumber = ListEachCustomer[1]
-			#CustomerBalanceAndSSN = [ListEachCustomer[0], ListEachCustomer[2]]
 			AccountNumberList.append(int(ListEachCustomer[1]))
 			BalanceAndSSNs.append([ListEachCustomer[0], float(ListEachCustomer[2])])   
 			
