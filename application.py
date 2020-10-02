@@ -15,21 +15,15 @@ def readBalFilename(filename):
 				for item in listItems:
 					ListEachCustomer.append(item)
 					#itemsList.append(item)
-					pass
 			else:
 				del listItems
 			AccountNumberList.append(int(ListEachCustomer[1]))
 			BalanceAndSSNs.append([ListEachCustomer[0], float(ListEachCustomer[2])])   
 			
-			
 			itemsList.append(ListEachCustomer)
-		#print(AccountNumberList)
-		#print(BalanceAndSSNs)
 		AccountNumberSSNBalance = dict(zip(AccountNumberList, BalanceAndSSNs))
 		#print (AccountNumberSSNBalance)
 		customerDetails.close()
-		#return AccountNumberSSNBalance
-		pass
 	return AccountNumberSSNBalance
 
 
@@ -46,11 +40,8 @@ def UpdateCustomerDictionary(filename, filename2):
 				if eachTransaction[0] == key:
 					value[1] = eachTransaction[1] + value[1]
 					print (eachTransaction[0], key, value[1])
-				pass
 		transactionDetails
 	return UpdatedCustomerDictionary
-	print (UpdatedCustomerDictionary)
-	pass
 
 
 
