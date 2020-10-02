@@ -39,10 +39,10 @@ def UpdateCustomerDictionary(filename, filename2):
 			for key, value in UpdatedCustomerDictionary.items():
 				if eachTransaction[0] == key:
 					value[1] = eachTransaction[1] + value[1]
-					print (eachTransaction[0], key, value[1])
+					#print (eachTransaction[0], key, value[1])
 		transactionDetails
 	return UpdatedCustomerDictionary
 
 
 
-print (UpdateCustomerDictionary('balance.dat', 'transactions.dat'))
+print (UpdateCustomerDictionary('balance.dat', 'transactions.dat'))	
