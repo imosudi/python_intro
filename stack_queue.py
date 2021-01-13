@@ -25,7 +25,7 @@ class Queue():
 
     def dequeueleft(self):
         if len(self.queue) > 0:
-            return self.popleft()
+            return self.queue.popleft()
         pass
         
     def __str__(self):
@@ -60,14 +60,17 @@ class Stack():
         pass
 
 
-"""my_queue = Queue()
+my_queue = Queue()
 print(my_queue)
-my_queue.push(6)
-my_queue.pushleft(29)
+my_queue.enqueue(6)
+my_queue.enqueueleft(29)
+my_queue.enqueueleft(9)
+my_queue.enqueue(19)
+my_queue.dequeueleft()
 print(my_queue)
-my_queue.push(7)
-my_queue.push(9)
-print(my_queue)"""
+my_queue.dequeue()
+my_queue.dequeue()
+print(my_queue)
 
 
 """my_stack = Stack()
