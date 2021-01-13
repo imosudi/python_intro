@@ -60,7 +60,7 @@ class Stack():
         pass
 
 
-my_queue = Queue()
+"""my_queue = Queue()
 print(my_queue)
 my_queue.enqueue(6)
 my_queue.enqueueleft(29)
@@ -70,7 +70,7 @@ my_queue.dequeueleft()
 print(my_queue)
 my_queue.dequeue()
 my_queue.dequeue()
-print(my_queue)
+print(my_queue)"""
 
 
 """my_stack = Stack()
