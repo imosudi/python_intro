@@ -56,14 +56,6 @@ class Stack():
     def __str__(self):
         return str(self.stack) 
         pass
-"""my_queue = deque()
-my_queue.append(6)
-print(my_queue)
-my_queue.appendleft(29)
-print(my_queue)
-my_queue.append(7)
-my_queue.append(9)
-print(my_queue)"""
 
 
 """my_queue = Queue()
@@ -76,7 +68,7 @@ my_queue.push(9)
 print(my_queue)"""
 
 
-my_stack = Stack()
+"""my_stack = Stack()
 my_stack.push(1)
 my_stack.push(5)
 my_stack.push(8)
@@ -85,4 +77,4 @@ print(my_stack.pop())
 print(my_stack.pop())
 print(my_stack.peep())
 print(my_stack.pop())
-print(my_stack.pop())
+print(my_stack.pop())"""
