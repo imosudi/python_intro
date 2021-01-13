@@ -8,22 +8,22 @@ class Queue():
         self.queue = deque()
         pass
 
-    def push(self, item):
+    def enqueue(self, item):
         self.queue.append(item)
         pass
 
-    def pushleft(self, item):
+    def enqueueleft(self, item):
         self.queue.appendleft(item)
         pass
 
-    def pop(self):
+    def dequeue(self):
         if len(self.queue) > 0:
             return self.queue.pop()
         else:
             return None
         pass       
 
-    def popleft(self):
+    def dequeueleft(self):
         if len(self.queue) > 0:
             return self.popleft()
         pass
